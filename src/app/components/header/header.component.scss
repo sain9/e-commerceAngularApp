@@ -1,0 +1,93 @@
+.form-control {
+    border-radius: 3px;
+    width: 35vw;
+    margin-left: 2vw; 
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    top: 22px;
+    color: blue;
+}
+
+header {
+    // width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media  (max-width: 767px) {
+    
+   
+    .form-control {
+        // align-self: center;
+        // align-content: center;
+        width: 50vw;
+        margin-left: 2vw; 
+    }
+
+    .search-icon {
+        right: 10vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .form-control {
+        width: 50vw;
+        margin-left: 2vw; 
+    }
+
+    .search-icon {
+        right: 30vw;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1199px) {
+    .form-control {
+        width: 50vw;
+        margin-left: 2vw; 
+    }
+
+    .search-icon {
+        right: 34vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .form-control {
+        width: 35vw;
+        margin-left: 2vw; 
+    }
+
+    .search-icon {
+        right: 51vw;
+    }
+}
+
+@media (min-width: 1401px) {
+    .form-control {
+        width: 35vw;
+        margin-left: 2vw; 
+    }
+
+    .search-icon {
+        right: 54vw;
+    }
+}
+
+@media (max-width: 361px) {
+    
+   
+    .form-control {
+        // align-self: center;
+        // align-content: center;
+        width: 45vw;
+        margin-left: 3vw; 
+    }
+
+    .search-icon {
+        right: 7vw;
+    }
+ }
